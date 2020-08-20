@@ -1,100 +1,115 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title> Assignment : Box - Web App</title>
+    <title>Box - Web  App </title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
     <body>
 
         <main>
+            <header>
 
-            <nav>
-                    <img src="box-logo.png" alt="box-logo" id="logo"/>
+                <img id="logo" src="box-logo.png" alt="BOX Logo"/>
+                <nav>
 
-                    <div id="menu-items">
-                        <a href="#">Plans</a>
+                    <a href="#">Plans</a>
                     
+                    <a href="#">Blog</a>
+                
+                    <a href="#">Job</a>
+
+                    <a href="#">Feature</a>
+
+                </nav>
+
+                <button id="signIn-btn"> Sign In</button>
+
+                <div class="mobile_menu_wrapper">
+                    <i class="fas fa-bars menu_mob"></i>
+
+                    <div class="dropdown">
+                        
+                        <a href="#">Plans</a>
+                        
                         <a href="#">Blog</a>
                     
                         <a href="#">Job</a>
 
                         <a href="#">Feature</a>
-
-                    </div>
                         
-                    <button id="signIn-btn">Sign In</button>
+                    </div>
 
-       
-            </nav>
+                </div>
+
+            </header>
 
             <section id="landing-section">
 
-                <div id="left-section">
+                <article id="a1" class="article-block">
 
-                    <div class="l-section-item">
+                    <div id="left-section">
 
-                        <button id="btn-1">New Feature</button>
+                        <div class="l-section-item">
 
-                    </div>
-
-                    <div class="l-section-item">
-
-                        <p id="p-1">Create your Custom Workspace.</p>
-
-                    </div>
-
-                    <div class="l-section-item">
-
-                        <p id="p-2">For Each Execution of a job.</p>
-
-                    </div>
-
-                    <div class="l-section-item">
-
-                        <button id="btn-2">Get Started</button>
-
-                    </div>
-
-                    <div class="l-section-item">
-
-                        <div id="page-nav">
-
-                        <div class="icon-wrapper">
-                            <span class="arrow-icon">
-                                <i class="fas fa-arrow-left"></i>
-                            </span>
+                            <button id="btn-1">New Feature</button>
     
-                            <span  class="arrow-icon" >
-                                <i class="fas fa-arrow-right"></i>
-                            </span>
-
-                        </div>    
-                        
-
-                        <div class="page-name">
-                            <span id="pg-no"><b>0.1 &nbsp;&nbsp; </b></span>
-                            <span><b>Creative<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Workspace Vol.2</b></span>
                         </div>
-
+    
+                        <div class="l-section-item">
+    
+                            <p id="p-1">Create your Custom Workspace.</p>
+    
                         </div>
-
-                        
+    
+                        <div class="l-section-item">
+    
+                            <p id="p-2">For Each Execution of a job.</p>
+    
+                        </div>
+    
+                        <div class="l-section-item">
+    
+                            <button id="btn-2">Get Started</button>
+    
+    
+    
+    
 
                     </div>
 
-                </div>
+                    
+                </article>
+                <article  id="a2" class="article-block">
 
-                <div id="right-section">
-                    <img src="landing-section.png" alt="box-model-img" id="landing-img"/>   
-                </div>
+                  
 
-                
+                </article>
+                <article  id="a3" class="article-block">
+
+                    <div class="icon-wrapper">
+                        <span class="arrow-icon">
+                            <i class="fas fa-arrow-left"></i>
+                        </span>
+
+                        <span  class="arrow-icon" >
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+
+                    </div>    
+                    
+
+                    <div class="page-name">
+                        <span id="pg-no"><b>0.1 &nbsp;&nbsp; </b></span>
+                        <span><b>Creative<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Workspace Vol.2</b></span>
+                    </div>
+
+                </article>
 
             </section>
 
-          
         </main>
+
        
     </body>
 
