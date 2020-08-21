@@ -209,6 +209,11 @@ button{
     display: none;
 }
 
+i:hover{
+
+    cursor: pointer;
+}
+
 
 
 /*######################## Mobile Responsive ########################################*/
